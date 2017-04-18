@@ -1,0 +1,124 @@
+@import url('//fonts.googleapis.com/css?family=Unica One');
+@import url('//fonts.googleapis.com/css?family=Oxygen');
+/* calc() for calculations */
+a:link, a:visited {
+    font-size: inherit;
+    line-height: inherit;
+    
+    width: 30%;
+    display: inherit;
+    
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    box-shadow: 3px 3px 10px;
+    background-color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    background-color:rgba(112, 123, 88, 0.3);
+}
+.inLine{
+    display: inline-block;
+
+    font-size: 100%;
+    font-family: Oxygen;
+    line-height: 150%;
+    background-color:rgba(245, 245, 220, .8);
+        
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    white-space:normal;
+    z-index: -9;
+}
+.hFill {
+    width: 100%;     
+    background-color:rgb(255, 250, 240);
+
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    
+    white-space:normal;
+    z-index: -9;
+}
+.cContent{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgba(255, 250, 240, .15);
+    box-shadow: 3px 3px 10px;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    z-index: -10;
+}
+h1.head {
+    font-family:'Unica One';
+    font-size: 400%;
+    text-align: left;
+}
+div.vbuffer {
+    align-content:center; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width:100%;
+}
+.mvbuffer {
+    align-content:center; 
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width:100%;
+}
+div.hbuffer {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 100%;
+}
+div.mhbuffer {
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
+}
+.center{
+    margin: auto;
+    width: 80%;
+    white-space: nowrap;
+}
+/*------    Tables  -----*/
+.thead {
+    text-align: center;
+    width:20%;
+    display: auto;
+    font-family:'Unica One';
+    font-size: 200%;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.tdata {
+    display: auto;
+    width: 80%;    
+    line-height: 150%;
+    white-space: normal;
+    font-family:'Oxygen';
+    padding: 20px;
+}
+.fcenter {
+    margin: auto;
+    width: 80%;
+    white-space: nowrap;
+    display: flex;
+}
+/* -----    Links   -----*/
+#products{
+    /*Link to Products mini*/
+}
+#ideas {
+    /*Link to ideas mini */
+}
+#projects {
+    /*Link to projects mini*/
+}
