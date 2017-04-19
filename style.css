@@ -8,19 +8,21 @@ a:link, a:visited {
     width: 30%;
     display: inherit;
     
+    flex: inherit;
+    
     color: inherit;
     font-family: inherit;
     font-size: inherit;
     box-shadow: 3px 3px 10px;
     background-color: inherit;
     text-decoration: none;
+    
 }
 a:hover {
     background-color:rgba(112, 123, 88, 0.3);
 }
 .inLine{
-    display: inline-block;
-
+    flex: 1;
     font-size: 100%;
     font-family: Oxygen;
     line-height: 150%;
@@ -30,7 +32,6 @@ a:hover {
     padding-right: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
     white-space:normal;
     z-index: -9;
 }
@@ -96,18 +97,6 @@ div.vbuffer {
     padding-bottom: 1.5%;
     width:100%;
 }
-div.hbuffer {
-    display: inline-block;
-    padding-left: 1%;
-    padding-right: 1%;
-    height: 100%;
-}
-div.mhbuffer {
-    display: inline-block;
-    padding-left: 3%;
-    padding-right: 3%;
-    height: 100%;
-}
 .center{
     margin: auto;
     width: 80%;
@@ -116,7 +105,6 @@ div.mhbuffer {
 /*------    Tables  -----*/
 .thead {
     text-align: center;
-    width:20%;
     display: auto;
     font-family:'Unica One';
     font-size: 200%;
@@ -144,6 +132,6 @@ div.mhbuffer {
 #ideas {
     /*Link to ideas mini */
 }
-#projects {
+#support {
     /*Link to projects mini*/
 }
