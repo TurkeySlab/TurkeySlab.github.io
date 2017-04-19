@@ -122,7 +122,6 @@ div.mhbuffer {
     font-size: 200%;
     padding-left: 15px;
     padding-top: 30px;
-    padding-bottom: 15px;    
 }
 .tdata {
     display: auto;
@@ -145,6 +144,6 @@ div.mhbuffer {
 #ideas {
     /*Link to ideas mini */
 }
-#support {
+#projects {
     /*Link to projects mini*/
 }
