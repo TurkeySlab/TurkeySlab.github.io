@@ -34,6 +34,26 @@ a:hover {
     white-space:normal;
     z-index: -9;
 }
+.infoCell{
+    display: flex; 
+    font-size: 100%;
+    font-family: Oxygen;
+    line-height: 150%;
+    background-color:rgb(245, 245, 220);
+
+    margin: 2%;
+    padding: 5%;
+    z-index: -8;
+}
+.infoHold {
+    width:80%;
+    margin: auto;
+    align-content: space-around;
+    padding: 1%;
+    background-color:rgba(245, 245, 220, .4);
+    box-shadow: 3px 3px 10px;
+    z-index: -9;
+}
 .hFill {
     width: 100%;     
     background-color:rgb(255, 250, 240);
@@ -58,6 +78,11 @@ h1.head {
     font-family:'Unica One';
     font-size: 400%;
     text-align: left;
+}
+/*----- buffers -----*/
+.hbuffer {
+    width:100%;
+    padding-top: 100px;
 }
 div.vbuffer {
     align-content:center; 
