@@ -16,9 +16,6 @@ a:link, a:visited {
     box-shadow: 3px 3px 10px;
     background-color: inherit;
     text-decoration: none;
-    
-
-    
 }
 a:hover {
     background-color:rgba(112, 123, 88, 0.3);
@@ -38,7 +35,7 @@ a:hover {
     z-index: -9;
 }
 .infoCell{
-    font-size: 100%;
+    font-size: 120%;
     font-family: Oxygen;
     line-height: 150%;
     background-color:rgb(245, 245, 220);
@@ -67,14 +64,7 @@ a:hover {
     z-index: -9;
 }
 .cContent{
-    display: flex;
-    justify-content:space-around;
-    background-color:rgba(255, 250, 240, .15);
-    box-shadow: 3px 3px 10px;
-
-    padding-top: 5%;
-    padding-bottom: 5%;
-    z-index: -10;
+    visibility: hidden;
 }
 h1.head {
     font-family:'Unica One';
@@ -132,7 +122,8 @@ div.bvbuffer {
 }
 .tdata {
     display: auto;
-    width: 80%;    
+    width: 80%;
+    font-size: 120%;
     line-height: 150%;
     white-space: normal;
     font-family:'Oxygen';

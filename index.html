@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='style.css' type='text/css' rel='stylesheet'>
-<link type="text/css" rel="stylesheet" href="header-style.css">
+    <link type='text/css' rel='stylesheet' href='style.css'>
+    <link type="text/css" rel="stylesheet" href="header-style.css">
+    <link type="text/css" rel="stylesheet" media="handheld" href="mobile.css">
+    <link rel="alternate" hreflang="x-default" href="http://www.paperplanetechnologies.com">
 <title>Paper Plane Technologies</title>
 <meta name="keywords" content="Paper Plane Technologies, Paper Plane, Technology, PPT-Flyer">
 <!-- favicon -->
@@ -80,7 +82,7 @@
 
 <div id="products"></div>
 
-<div class="hFill">
+<div itemscope itemtype="http://schema.org/Product" class="hFill">
 <!--    PPT-Flyer   -->
     <div class="center">
         <h1 class="head" >
@@ -90,14 +92,15 @@
     <div class="fcenter">
         <a href="download.html">
         <div class="thead">
-            PPT-<em>Flyer </em> <sup><small>1.0</small></sup>
+            <span itemprop="name">PPT-<em>Flyer </em></span> <sup><small>1.0</small></sup>
+            <br><br><br><br><br>
+            <img align="left" src="Paper%20Plane%20Technologies%20logo.png" width=80% >
         </div>
         </a>
-        <div class="tdata">
-            "The PPT-<em>Flyer</em> is the mathematician’s best friend" -Max Williams, CEO
+        <div class="tdata">                        <!-- General -->
+            The PPT-<em>Flyer</em> is a new idea of a calculator. With its easy to learn user interface it will allow you to focus more on your studies rather than how your mathmatics tool works.
             <br><br>
-                        <!-- General -->
-            The PPT-<em>Flyer</em> is a new idea of a calculator. With its easy to learn user interface it will allow you to focus more on your studies rather than how this mathmatics tool works.
+            The PPT-<em>Flyer</em> is a Mathematics productivity software in its current build. Those who purchase will recieve all updates until final version and will recieve a discount on the hardware being designed for this software.
             <br><br>
             Current support
             <ul style="list-style-type:circle">
@@ -108,15 +111,20 @@
                 <li>List operations</li>
                 <li>Matrix operations</li>
             </ul>
-            *Current build is a closed beta. Those willing to support us will receive special thank you in the final build.
-        </div>     
+            *Current build is a closed software beta. Those willing to support us will receive special thank you in the final build.
+        </div> 
+        <meta itemprop="description" content="Mathematics productivity software">
+<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<meta itemprop="price" content="$30.00"></span>
+<span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+<meta itemprop="name" content="Paper Plane Technologies"></span>
     </div>
     <div class="mvbuffer"></div>
 <!--     Java.StringMath     -->
     <div class="fcenter">
         <a href="download.html">
-        <div class="thead">
-            Java.StringMath
+        <div itemprop="name" class="thead">
+            Java. StringMath
         </div>
         </a>
         <div class="tdata">
@@ -147,6 +155,11 @@
                 
             </ul>
         </div>
+        <meta itemprop="description" content="Java software for math operations that work around IEEE 745 standard for floating-point arithmetic.">
+<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<meta itemprop="price" content="It's on us"></span>
+<span itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+<meta itemprop="name" content="Paper Plane Technologies"></span>
     </div>
     <div class="vbuffer"></div>    
 </div>
@@ -211,7 +224,7 @@
     <div class="mvbuffer"></div>
 
     <div class="fcenter">
-        <a href="apply">
+        <a href="apply.html">
             <div class="thead">
                 Apply
             </div>
