@@ -1,58 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link type='text/css' rel='stylesheet' href='style.css'>
-    <link type="text/css" rel="stylesheet" href="header-style.css">
-    <link type="text/css" rel="stylesheet" media="handheld" href="mobile.css">
-    <link rel="alternate" hreflang="x-default" href="http://www.paperplanetechnologies.com">
-<title>Paper Plane Technologies</title>
-<meta name="keywords" content="Paper Plane Technologies, Paper Plane, Technology, PPT-Flyer">
-<!-- favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-<link rel="manifest" href="/icons/manifest.json">
-<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#9fcbd9">
-<link rel="shortcut icon" href="/icons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Paper Plane">
-<meta name="application-name" content="Paper Plane">
-<meta name="msapplication-config" content="/icons/browserconfig.xml">
-<meta name="theme-color" content="#9fcbd9">
-   
-<meta name="description" content="The offical webpage for Paper Plane Technologies. We offer high quality web design and application development services">
-<style>
-    body {
-        padding: 0;
-        margin: 0;
-        
-        background-image: url(bg%20mountain%20smoke.jpg);
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        z-index: -10;
-    }
-</style>
-</head>
-
-<body>
-    
-<div id="theWholeHeadingBlock">
-	<a href="index.html"><img src="PPT%20WHT.png"></a>
-	<span id="rightHeadingItem">
-        <a href="#products">
-            <div id="hinLine">Products</div>
-        </a>
-        <a href="download.html">
-            <div id="hinLine">Download</div>
-        </a>
-        <a href="#ideas">
-            <div id="inLine">Ideas</div>
-        </a>
-		<a href="#support">
-            <div id="hinLine">Support us</div>
-        </a>
-  
-	</span>
-</div>
+<?php require_once("header.php"); ?>
 
 <div class="vbuffer"></div>   
 
@@ -90,7 +36,7 @@
         </h1>
     </div>
     <div class="fcenter">
-        <a href="download.html">
+        <a href="download.php">
         <div class="thead">
             <span itemprop="name">PPT-<em>Flyer </em></span> <sup><small>1.0</small></sup>
             <br><br><br><br><br>
@@ -122,7 +68,7 @@
     <div class="mvbuffer"></div>
 <!--     Java.StringMath     -->
     <div class="fcenter">
-        <a href="download.html">
+        <a href="download.php">
         <div itemprop="name" class="thead">
             Java. StringMath
         </div>
@@ -211,7 +157,7 @@
         </h1>
     </div>
     <div class="fcenter">
-        <a href="donate.html">
+        <a href="donate.php">
         <div class="thead">
             PPT-<em>Flyer </em> <sup><small>1.0</small></sup>
         </div>
@@ -224,7 +170,7 @@
     <div class="mvbuffer"></div>
 
     <div class="fcenter">
-        <a href="apply.html">
+        <a href="apply.php">
             <div class="thead">
                 Apply
             </div>
