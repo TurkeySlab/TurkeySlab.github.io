@@ -37,6 +37,20 @@ a:hover {
     white-space:normal;
     z-index: -9;
 }
+.dinLine{
+    flex: 1;
+    font-size: 100%;
+    font-family: Oxygen;
+    line-height: 150%;
+    background-color:rgba(245, 245, 220, .8);
+        
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    white-space:normal;
+    z-index: -9;
+}
 .infoCell{
     font-size: 100%;
     font-family: Oxygen;
@@ -67,14 +81,14 @@ a:hover {
     z-index: -9;
 }
 .cContent{
-    display: flex;
+   display: flex;
     justify-content:space-around;
     background-color:rgba(255, 250, 240, .15);
     box-shadow: 3px 3px 10px;
 
     padding-top: 5%;
     padding-bottom: 5%;
-    z-index: -10;
+    z-index: -10; 
 }
 h1.head {
     font-family:'Unica One';
@@ -96,6 +110,12 @@ div.vbuffer {
     padding-top: 5%;
     padding-bottom: 5%;
     width:100%;
+}
+div.dvbuffer {
+    align-content:center; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width:100%; 
 }
 div.bvbuffer {
     align-content:center; 
@@ -126,9 +146,10 @@ div.bvbuffer {
     font-size: 200%;
     padding-left: 15px;
     padding-top: 30px;
-    width: 100%;
+    width: 90%;
     max-width: 100%;
     white-space: normal;
+
 }
 .tdata {
     display: auto;
@@ -153,4 +174,12 @@ div.bvbuffer {
 }
 #support {
     /*Link to projects mini*/
+}
+.important {
+    display: auto;
+    font-size: 125%;
+    line-height: 200%;
+    white-space: normal;
+    font-family:'Oxygen';
+    padding: 20px;
 }

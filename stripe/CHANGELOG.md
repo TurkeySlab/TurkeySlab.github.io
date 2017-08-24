@@ -1,3 +1,55 @@
+### 5.1.3 2017-08-14
+
+* Allow `address_kana` and `address_kanji` to be updated for custom accounts
+
+### 5.1.2 2017-08-01
+
+* Fix documented return type of `autoPagingIterator()` (was missing namespace)
+
+### 5.1.1 2017-07-03
+
+* Fix order returns to use the right URL `/v1/order_returns`
+
+### 5.1.0 2017-06-30
+
+* Add support for OAuth
+
+### 5.0.0 2017-06-27
+
+* `pay` on invoice now takes params as well as opts
+
+### 4.13.0 2017-06-19
+
+* Add support for ephemeral keys
+
+### 4.12.0 2017-06-05
+
+* Clients can implement `getUserAgentInfo()` to add additional user agent information
+
+### 4.11.0 2017-06-05
+
+* Implement `Countable` for `AttachedObject` (`metadata` and `additional_owners`)
+
+### 4.10.0 2017-05-25
+
+* Add support for login links
+
+### 4.9.1 2017-05-10
+
+* Fix docs to include arrays on `$id` parameter for retrieve methods
+
+### 4.9.0 2017-04-28
+
+* Support for checking webhook signatures
+
+### 4.8.1 2017-04-24
+
+* Allow nested field `payout_schedule` to be updated
+
+### 4.8.0 2017-04-20
+
+* Add `\Stripe\Stripe::setLogger()` to support an external PSR-3 compatible logger
+
 ### 4.7.0 2017-04-10
 
 * Add support for payouts and recipient transfers

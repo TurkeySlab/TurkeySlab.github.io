@@ -1,24 +1,24 @@
 <?php
 /**
  *	This file does the actual downloading
- *	It will take in a query string and return either the file, 
+ *	It will take in a query string and return either the file,
  *	or failure
  *
  *	Expects: download.php?key1234567890
  */
- 
+
 	include("/var/www/html/singleuse/variables.php");
-	
+
 	// The input string
 	$key = trim($_GET['key']);
 	$i = trim($_GET['i']);
-	
+
 	/*
 	 *	Retrive the keys
 	 */
 	$keys = file('/var/www/html/singleuse/keys/keys');
 	$match = false;
-	
+
 	/*
 	 *	Loop through the keys to find a match
 	 *	When the match is found, remove it
@@ -29,17 +29,17 @@
 			$one = '';
 		}
 	}
-	
+
 	/*
 	 *	Puts the remaining keys back into the file
 	 */
 	file_put_contents('/var/www/html/singleuse/keys/keys',$keys);
-	
+
 	/*
 	 * If we found a match
 	 */
 	if($match !== false) {
-		
+
 		/*
 		 *	Forces the browser to download a new file
 		 */
@@ -55,10 +55,10 @@
 		header('Pragma: public');
 		header("Expires: 0");
 		readfile($file);
-		
+
 		// Exit
 		exit;
-	
+
 	} else {
 	/*
 	 * 	We did NOT find a match
@@ -75,7 +75,7 @@
 <div class="infoHold">
     <div class="infoCell">
     	<h1>Your download has expired.</h1>
-    	
+
     	<p>Contact us at <a href="mailto:paperplanetechnologies@gmail.com?Subject=Expired%20Download" target="_blank">paperplanetechnologies@gmail.com</a> to fix this.</p>
     </div>
 </div>
