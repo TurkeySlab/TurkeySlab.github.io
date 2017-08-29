@@ -6,8 +6,9 @@
  *
  *	Expects: download.php?key1234567890
  */
+ 	echo "<h1>hello</h1>"
 
-	include("/var/www/html/singleuse/variables.php");
+	include("/variables.php");
 
 	// The input string
 	$key = trim($_GET['key']);
@@ -16,7 +17,7 @@
 	/*
 	 *	Retrive the keys
 	 */
-	$keys = file('/var/www/html/singleuse/keys/keys');
+	$keys = file('/keys/keys');
 	$match = false;
 
 	/*
@@ -33,7 +34,7 @@
 	/*
 	 *	Puts the remaining keys back into the file
 	 */
-	file_put_contents('/var/www/html/singleuse/keys/keys',$keys);
+	file_put_contents('/keys/keys',$keys);
 
 	/*
 	 * If we found a match

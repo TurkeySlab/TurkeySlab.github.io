@@ -18,13 +18,13 @@
 <meta name="application-name" content="Paper Plane">
 <meta name="msapplication-config" content="/icons/browserconfig.xml">
 <meta name="theme-color" content="#9fcbd9">
-   
+
 <meta name="description" content="The offical webpage for Paper Plane Technologies. We offer high quality web design and application development services">
 <style>
     body {
         padding: 0;
         margin: 0;
-        
+
         background-image: url(/bg%20mountain%20smoke.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
@@ -41,7 +41,7 @@
         <a href="/index.php#products">
             <div id="hinLine">Products</div>
         </a>
-        <a href="download.php">
+        <a href="/download.php">
             <div id="hinLine">Download</div>
         </a>
         <a href="/index.php#ideas">
@@ -50,7 +50,7 @@
 	<a href="/index.php#support">
             <div id="hinLine">Support us</div>
         </a>
-  
+
 	</span>
 </div>
 

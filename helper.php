@@ -9,8 +9,8 @@ function db_connect() {
          // Load configuration as an array. Use the actual location of your configuration file
          // On Linux: /var/www/config.ini
          // On Mac: /Applications/MAMP/config.ini
-        $config = parse_ini_file('/var/www/config.ini');
-        $connection = mysqli_connect('localhost', $config['username'], $config['password'], "Flyer");
+        $config = parse_ini_file('/home/papenwxe/config.ini');
+        $connection = mysqli_connect('localhost', $config['username'], $config['password'], "papenwxe_Flyer");
     }
 
     // If connection was not successful, handle the error

@@ -1,6 +1,6 @@
 <?php
 
-	require_once("/var/www/html/singleuse/variables.php");
+	require_once("/home/papenwxe/public_html/singleuse/variables.php");
 
 
 // Get a human readable file size from bytes
@@ -11,7 +11,7 @@
 	}
 
 	function generate() {
-		include("/var/www/html/singleuse/variables.php");
+		include("/home/papenwxe/public_html/singleuse/variables.php");
 		// Create a list of files to download from
 		$download_list = array();
 
@@ -31,9 +31,9 @@
 				/*
 				 *	Create a protected directory to store keys in
 				 */
-				if(!is_dir('/var/www/html/singleuse/keys')) {
-					mkdir('/var/www/html/singleuse/keys');
-					$file = fopen('/var/www/html/singleuse/keys/.htaccess','w');
+				if(!is_dir('/home/papenwxe/public_html/singleuse/keys')) {
+					mkdir('/home/papenwxe/public_html/singleuse/keys');
+					$file = fopen('/home/papenwxe/public_html/singleuse/keys/.htaccess','w');
 					fwrite($file,"Order allow,deny\nDeny from all");
 					fclose($file);
 				}
@@ -41,7 +41,7 @@
 				/*
 				 *	Write the key key to the keys list
 				 */
-				$file = fopen('/var/www/html/singleuse/keys/keys','a');
+				$file = fopen('/home/papenwxe/public_html/singleuse/keys/keys','a');
 				fwrite($file,"{$new}\n");
 				fclose($file);
 
